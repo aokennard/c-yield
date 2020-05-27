@@ -1,0 +1,4 @@
+#define TEST_PASSED "PASSED"
+#define TEST_FAILED "FAILED"
+
+#define TEST_STR(x) ((x) ? TEST_PASSED : TEST_FAILED)
